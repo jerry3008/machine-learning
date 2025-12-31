@@ -1,0 +1,73 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+.ipynb_checkpoints/
+
+# data / models / outputs
+data/
+datasets/
+models/
+outputs/
+results/
+logs/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# experiment tools
+mlruns/
+wandb/
+lightning_logs/
+
+
+
+
+# =========================
+# C++ build artifacts
+# =========================
+# Common build folders
+build/
+cpp/build/
+cmake-build-*/
+out/
+
+# Compiled binaries / objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.user
+*.pdb
+*.ipch
+
+# CLion
+.idea/
